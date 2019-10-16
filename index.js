@@ -4,7 +4,7 @@
 var admin = require("firebase-admin");
 const { Storage } = require('@google-cloud/storage');
 const storage = new Storage();
-
+// const serviceAccountKey = require('./serviceAccountKey.json')
 var config = {
     "<your configuration from serviceAccountKey.json>"
 }
